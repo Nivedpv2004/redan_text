@@ -1,4 +1,5 @@
 #include <SPI.h>
+int SS = 10;
 
 void setup() {
   Serial.begin(9600); // initialize serial communication for debugging
